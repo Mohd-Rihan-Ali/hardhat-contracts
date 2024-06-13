@@ -1,9 +1,7 @@
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-ignition";
 import dotenv from "dotenv";
-// require("@nomicfoundation/hardhat-ignition");
-// require("@nomicfoundation/hardhat-toolbox");
-// require("dotenv").config();
+import "solidity-coverage";
 
 dotenv.config();
 const METAMASK_PRIVATE_KEY = "0x" + process.env.PRIVATE_KEY;
@@ -21,5 +19,3 @@ module.exports = {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
 };
-
-// export default config;

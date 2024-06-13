@@ -5,5 +5,3 @@ module.exports = buildModule("ERC721TokenModule", (m) => {
 
   return { ERC721Contract };
 });
-
-// export default LockModule;
